@@ -22,3 +22,15 @@ function removeDuplicatesNumber(arr) {
 
 const arr = removeDuplicatesNumber([1, 2, 2, 4, 5, 6, 3, 5, 5]);
 console.log(arr); // Output: [1, 2, 4, 5, 6, 3]
+
+
+//==============================================================================
+
+// Question: how to find location of any item in the array.
+
+function findLocation(arr,item){
+    return arr.indexOf(item);
+}
+
+const index = findLocation([5,6,7,8], 8);
+console.log("index",index);
