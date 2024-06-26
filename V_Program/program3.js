@@ -1,4 +1,4 @@
-// Reverse a String 
+// Reverse a String
 // input = "Hello World"
 // output = "dlroWolleH"
 
@@ -14,14 +14,14 @@
 // --------------------------------------
 
 // without using inbuild function.
-function reverseString(str){
-    let reversed = '';
-    for (let i = str.length - 1; i >= 0; i--) {
-        if (str[i] !== ' ') {
-            reversed += str[i];
-        }
+function reverseString(str) {
+  let reversed = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    if (str[i] !== " ") {
+      reversed += str[i];
     }
-    return reversed;
+  }
+  return reversed;
 }
 const result = reverseString("Hello World");
-console.log("result",result);
+console.log("result", result);
