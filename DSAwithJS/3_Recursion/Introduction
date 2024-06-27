@@ -1,0 +1,12 @@
+Recursion : 
+Recursion is a programming technique where a function calls itself repeatedly to solve a problem.
+
+There are three basic parts:
+1. The Function Declaration
+2. The Base Case
+3. The Recursive Call command.
+
+Types of Recursions: 
+Recursion are mainly of two types depending on whether a function calls itself from within itself or more than one function call one another mutually. 
+1. Direct Recursion
+2. Indirect Recursion
