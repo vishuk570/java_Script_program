@@ -1,0 +1,21 @@
+Stack : A stack is a linear data structure that can hold many elements.
+we refer to a collection of elements that follow a specific order for adding and removing items. 
+This order is known as “Last In, First Out” (LIFO).
+
+Basic operations we can do on a stack are:
+1. Push: Adds a new element on the top of stack.
+2. Pop: Removes and returns the top element from the stack.
+3. Peek: Returns the top element on the stack without removing it.
+4. isEmpty: Checks if the stack is empty. Returns true if the stack is empty, false otherwise.
+5. Size: Finds the number of elements in the stack. 
+
+When Would You Use a Stack?
+
+1. Managing Functions:
+ JavaScript uses a stack to keep track of functions. When a function is called, it goes on the stack. When it’s done, it comes off.
+
+2. Undo Buttons: 
+Like in a text editor, where you can undo your last actions.
+
+3. Solving Puzzles: 
+Some puzzles can be solved using stacks.
