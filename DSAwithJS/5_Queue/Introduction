@@ -1,0 +1,13 @@
+Queue: A queue is a linear data structure that can hold many elements.
+Think of a queue as people standing in line in a supermarket.
+The first person to stand in line is also the first who can pay and leave the supermarket. This way of organizing elements is called FIFO: First In First Out.
+we refer to a collection of elements that follow a specific order for adding and removing items. 
+This order is known as First In, First Out” (FIFO).
+
+Basic operations we can do on a Queue are:
+
+1. Enqueue: Adds a new element to the queue.
+2. Dequeue: Removes and returns the first (front) element from the queue.
+3. Peek: Returns the first element in the queue.
+4. isEmpty: Checks if the queue is empty.
+5. Size (length): Finds the number of elements in the queue. 
