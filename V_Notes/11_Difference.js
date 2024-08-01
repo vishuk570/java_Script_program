@@ -135,6 +135,11 @@ window.addEventListener('scroll', throttleFn);
 
 
 // 10. Difference between "for...in" and "for...of" loops in JavaScript:
+// Difference Summary:
+// for...in loop is used to iterate over the keys (property names) of an object.
+// for...of loop is used to iterate over the values of an iterable object like arrays, strings, etc.
+// for...in iterates over object properties, including inherited ones, 
+// while for...of does not iterate over object properties but directly over the iterable's elements.
 
 // for...in : for...in loop iterates over the enumerable properties of an object.
 const obj = { a: 1, b: 2, c: 3 };
