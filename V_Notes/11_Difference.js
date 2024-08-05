@@ -153,3 +153,35 @@ for (const value of num) {
     console.log(value); // Output: 1 2 3
 }
 
+
+
+
+// 11. Difference between "debouncing" and "throattling".
+
+// Both techniques help improve performance and enhance the user experience by reducing the number of times
+// functions are called in response to rapid-fire events.
+
+
+
+// 1.Debouncing:
+
+// Executes the function after a specified delay of inactivity.
+// Useful for events where you want to wait until the user stops performing an action(e.g., typing, resizing).
+// Example: Search input where the search function is called after the user stops typing.
+
+// 2.Throttling:
+
+// Executes the function at most once every specified interval.
+// Useful for events where you want to limit the rate of function execution(e.g., scrolling, mouse movement).
+// Example: Updating the position of an element on window scroll.
+
+
+
+
+// 12. Difference between "Shallow Copy" and "Deep Copy". 
+
+// Shallow Copy: Copies only the top-level properties. Nested objects/arrays are referenced, not copied. 
+// Changes to nested structures affect the original.
+
+// Deep Copy: Copies all levels, creating entirely new instances of nested objects/arrays. 
+// Changes to nested structures do not affect the original.

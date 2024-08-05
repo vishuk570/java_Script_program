@@ -5,7 +5,7 @@
 
 
 // Scope in JavaScript:
-// In JavaScript, scope refers to the visibility and accessibility of variables within your code. 
+// In JavaScript, scope refers to the visibility and accessibility of variables within code. 
 // It determines where variables and functions are available for us.
 
 // There are two main types of scope in JavaScript:
@@ -44,3 +44,12 @@ myFunction(); // Outputs: 'I am global' and 'I am local'
 // In JavaScript, objects and functions are also variables.
 
 
+
+
+// ===================================================================================================
+
+// Lexical Scope :  Lexical environment is the local memory along with lexical environment of it's parent.
+
+// Lexical scope is a fundamental concept in programming that determines the accessibility
+// of variables and functions within a program. In simple terms, the lexical scope is the scope
+// of a variable or function based on where it is defined in the source code. 

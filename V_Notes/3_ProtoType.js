@@ -1,9 +1,9 @@
 // What is the prototype in JavaScript?
 
 // JavaScript is a prototype based language, so, whenever we create a function using JavaScript, 
-// JavaScript engine adds a prototype property inside    a function, Prototype property is basically 
-// an object (also known as Prototype object), where we can attach methods and properties in a prototype object, 
-// which enables all the other objects to inherit these methods and properties.
+// JavaScript engine adds a prototype property inside a function, Prototype property is basically 
+// an object (also known as Prototype object), where we can attach methods and properties
+// in a prototype object, which enables all the other objects to inherit these methods and properties.
 
 // // function constructor 
 // function Person(name, job, yearOfBirth){    
