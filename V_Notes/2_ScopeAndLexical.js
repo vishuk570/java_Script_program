@@ -13,8 +13,8 @@
 // 2. Local(Function) Scope
 
 // 1. Global Scope: 
-// Global Scope: Variables declared outside of any function, including at the top level of your JavaScript file, 
-// have global scope. They can be accessed from anywhere in your code, including inside functions.
+// Global Scope: Variables declared outside of any function, including at the top level in JavaScript file, 
+// have global scope. They can be accessed from anywhere in code, including inside functions.
 
 // 2. Local Scope:
 // Local Scope: Variables declared inside a function have local scope. 

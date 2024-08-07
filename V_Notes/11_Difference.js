@@ -185,3 +185,26 @@ for (const value of num) {
 
 // Deep Copy: Copies all levels, creating entirely new instances of nested objects/arrays. 
 // Changes to nested structures do not affect the original.
+
+
+
+// 13. Difference between controlled and uncontrolled components
+
+// Controlled components are those where the form data is handled by the React component state. 
+// In a controlled component, the form element's value is always driven by the React state. 
+// This means that every state mutation will have an associated handler function.
+
+// Characteristics:
+// 1.Single Source of Truth: The form data is stored in the component’s state, 
+// making it the single source of truth.
+// 2.Easier to Handle Validation and Conditional Rendering: Since the state is always in sync with the input, 
+// it’s easier to validate and render conditionally.
+// 3.Immediate Feedback: The UI can provide immediate feedback based on the current state.
+
+
+// Uncontrolled components are those where the form data is handled by the DOM itself. 
+// In an uncontrolled component, you use a ref to get the form values from the DOM.
+// Characteristics:
+// 1.Less Boilerplate: No need to write event handlers for every input.
+// 2.Direct Access to DOM: Access to the form values is via the DOM, which can be simpler for quick and dirty forms.
+// 3.Use Cases: Often used when integrating with third-party libraries that manage their own state.
