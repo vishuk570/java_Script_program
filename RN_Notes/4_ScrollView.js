@@ -42,3 +42,10 @@
 // Summary:
 // Use ScrollView for small, simple lists.
 // Use FlatList for big lists or when performance matters.
+
+
+// =====================================================================================
+
+// KeyboardAvoidingView :
+// This component will automatically adjust its height, position, or bottom padding
+// based on the keyboard height to remain visible while the virtual keyboard is displayed.
