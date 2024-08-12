@@ -40,7 +40,19 @@
 
 // Benefits: Reduced Overhead and Flexibility
 
+
 // =======================================================================================================
+
+
+// 4. CodeGen
+// All this talk of Turbo Modules and Fabric sounds promising, but JavaScript is a Dynamically typed language,
+// and JSI is written in C++, which is a Statically Typed Language. Consequently, there is a need to ensure
+// smooth communication between the two.
+
+// That’s why the new architecture will also include a static type checker called CodeGen.
+
+
+// =========================================================================================================
 
 
 // Benefits of the New Architecture:
@@ -53,6 +65,7 @@
 
 
 // ============================================================================================================
+
 
 // Hermes : 
 // Hermes is an open-source JavaScript engine optimized for React Native. 
@@ -70,6 +83,7 @@
 
 
 // ============================================================================================================
+
 
 // Flipper:
 // Flipper is a powerful developer tool from Meta (formerly Facebook) that provides a platform for debugging,
