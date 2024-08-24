@@ -68,3 +68,34 @@
 // 12. extraData :
 // A prop used to re-render the list when the data outside of the data array changes. 
 // It forces the list to refresh when its value changes.
+
+
+
+// ==================================================================================
+
+// SectionList: 
+// Use SectionList when you have a list of items that are grouped into sections. 
+// Each section can have a header, and then a list of items under that header.
+
+// Example Use Case: Displaying a list of grocery items categorized by type, 
+// like "Fruits," "Vegetables," etc.
+
+import SectionList from 'react-native';
+<SectionList
+  sections={[
+    {title: 'Fruits', data: ['Apple', 'Banana', 'Cherry']},
+    {title: 'Vegetables', data: ['Carrot', 'Lettuce', 'Peas']}
+  ]}
+  renderItem={({item}) => <Text>{item}</Text>}
+  renderSectionHeader={({section}) => <Text style={{fontWeight: 'bold'}}>{section.title}</Text>}
+/>
+
+// =========================================================================================
+
+// Summary of Differences:
+
+// FlatList: Best for rendering a simple, flat list of items. 
+// There are no sections or groupings; just a single list.
+
+// SectionList: Best for rendering lists where items are grouped into sections, 
+// each with a header. Ideal for categorized data.

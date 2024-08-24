@@ -1,5 +1,5 @@
 // Higher-order-function : 
-// A function that takes other functions as arguments or returns a function or is known a higher-order function.
+// A function that takes other functions as arguments or returns a function is known a higher-order function.
 
 // Example-1:
 function x(){    // x is callback function.
