@@ -1,4 +1,4 @@
-// 1. CallBack: "I will call back later!" 
+// 1. CallBack: is refer to "I will call back later!" 
 //     - A callback is a function passed as an argument to another function.
 //     - This technique allows a function to call another function.
 //     - A callback function can run after another function has finished
@@ -20,7 +20,7 @@ mySecond();
 
 function myDisplayer(some) {
    console.log("some:" ,some);
-  }
+}
   
 function myCalculator(num1, num2, myCallback) {
     let sum = num1 + num2;
@@ -42,19 +42,19 @@ myCalculator(5, 5, myDisplayer);
 
 // ==============================================================================================
 
-// 2. Asynchronous : I will finish later!
+// 2. Asynchronous : is refer to "I will finish later!"
 //                    - Functions running in parallel with other functions are called asynchronous
-//                    - A good example is JavaScript setTimeout()
+//                    - A good example in JavaScript setTimeout()
 
 // Callback Alternatives : most modern asynchronous JavaScript methods don't use callbacks. 
-//                         Instead, in JavaScript, asynchronous programming is solved using Promises instead.
+//                         Instead, in JavaScript, asynchronous programming is solved using Promises.
 
 // =================================================================================================
 
-// 3. Promisses: I Promise a Result!
+// 3. Promisses: is refer to "I Promise a Result!"
+//                 - A Promise is an Object that links Producing code and Consuming code
 //                 - "Producing code" is code that can take some time
 //                 - "Consuming code" is code that must wait for the result
-//                 - A Promise is an Object that links Producing code and Consuming code
 
 // Promise Object Properties: A JavaScript Promise object can be: myPromise.state          myPromise.result
 //                                                              1. pendig                  undefined

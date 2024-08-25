@@ -16,13 +16,14 @@ x();
 
 // example 2:
 function fn1() {
-    const name = "Mozilla";
+    var name = "Mozilla";
     function fn2() {
       console.log(name);
     }
+    name = "firefox"
     return fn2;
   }
   
 const myFn = fn1();
 console.log(myFn); // [Function: fn2]
-myFn(); // Mozilla
+myFn(); // firefox
