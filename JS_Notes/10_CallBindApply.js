@@ -32,7 +32,6 @@ let y2 = myFunction(4, 3); // return 12
 
 
 // 4.Function Hoisting:
-// T3chData10@75@$^*
 // Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope.
 // Hoisting applies to variable declarations and to function declarations.
 myFunction(5);
