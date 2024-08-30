@@ -1,7 +1,7 @@
 // JavaScript Hoisting
 // Hoisting is JavaScript's default behavior of moving declarations to the top.
 
-// JavaScript Declarations are Hoisted
+// JavaScript Declarations are Hoisted,
 // If we are declare of any variable on the top thats call Hoisted
 
 var x; // Declare x

@@ -5,7 +5,9 @@
 
 
 // 1. Global Context(outside of any function):
-console.log(this);  // In a browser, this will log the window object
+console.log(this); // return GlobalObject (the global object can be different on different platform)  
+// In a browser, this will log the window object
+// In nodejs, this will log the global object
 
 
 // 2. Inside a Function:
@@ -16,9 +18,13 @@ showThis();  // Logs the global object (window in browsers)
 
 'use strict';
 function showThiss() {
+  // its depends only strict or non-strict mode 
+  // if we write this in non-strict mode then it will be return again global object 
   console.log(this);
 }
 showThiss();  // Logs undefine
+// if we call with window then it will return again window object
+window.showThis(); // this keyword value depand on how the function is called.
 
 
 // 3. Inside a Method (Object Context):
@@ -28,7 +34,7 @@ const person = {
       console.log(this.name);
     }
   };
-  person.greet();  // Logs 'Alice', because this refers to the person object
+person.greet();  // Logs 'Alice', because this refers to the person object
 
 
 //   4. Inside a Constructor Function:
