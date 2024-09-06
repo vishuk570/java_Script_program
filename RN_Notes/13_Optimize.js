@@ -44,6 +44,12 @@
 // Use useEffect Cleanup: In functional components, return a cleanup function in useEffect to handle unmounting
 // logic.
 
+// How to find memory link in react native that which screen getting memory leak ?
+// To identify memory leaks in React Native, tools like Flipper, React DevTools, and 
+// native profiling tools such as Android Studio Profiler and Xcode Instruments are invaluable.
+// Monitoring memory usage and ensuring proper cleanup of event listeners and timers can help
+// prevent and fix memory leaks.
+
 
 // 7. Optimize Animations
 // Use Native Driver: Use the useNativeDriver option with Animated for smoother animations that run
