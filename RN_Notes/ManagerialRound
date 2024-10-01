@@ -1,0 +1,98 @@
+<!-- Can you describe your experience with React Native? -->
+
+I have over three years of experience in React Native, 
+during which I’ve developed and maintained several mobile applications 
+for both Android and iOS platforms. 
+My experience spans across various domains, including logistics, event management, 
+video streaming, training, and financial services.
+
+For example, I recently working on a project called Dapit Residual Reports,
+which is a mobile application designed for agents who sell credit and debit cards. 
+I am responsible for the full-cycle development of the app,  including designing the user interface, 
+integrating Google Sign-In and Microsoft Sign-In, and implementing features 
+that allowed users to view and download reports.
+
+Another significant project was I worked on a logistics tracking app called Gemini Tracker. 
+In this project, I was responsible for implementing real-time background location tracking
+and ensuring the app's stability during critical library upgrades. 
+This required deep knowledge of React Native's capabilities, third-party integrations, 
+and performance optimization techniques.
+
+Throughout my career, I’ve become proficient in various React Native technologies such as Redux, 
+React Navigation, and native modules for both Android and iOS. 
+I’m also experienced in debugging, testing, and optimizing apps to ensure they perform efficiently
+and provide a seamless user experience.
+
+My experience with React Native has allowed me to tackle a wide range of challenges, 
+from creating complex UI components to integrating backend services, 
+and I’m always eager to apply these skills to new and innovative projects."
+
+======================================================================================================
+
+<!-- Why do you want to work for Company name? -->
+
+I am excited about the opportunity to work for Company name because of its strong reputation
+for innovation in the IT sector. As a React Native developer with a passion for creating
+seamless and user-friendly mobile applications, I am particularly drawn to the bank's
+focus on digital transformation and enhancing customer experiences through technology.
+
+=====================================================================================================
+
+<!-- How do you handle tight deadlines and pressure? -->
+
+I handle tight deadlines and pressure by staying organized, focused, and adaptable.
+When faced with a tight deadline, I first break down the project into manageable tasks 
+and prioritize them based on urgency and importance. 
+I set clear milestones and ensure regular progress checks to stay on track.
+
+====================================================================================================
+
+<!-- Can you describe a challenging project and how you managed it? -->
+
+
+Situation:
+In one of my recent projects, I was tasked with developing a logistics tracking app, Gemini Tracker,
+for truck drivers transferring oil and water between locations. 
+The challenge arose when we had to implement a real-time background location tracking feature
+that worked seamlessly even in areas with poor network connectivity. 
+This feature was critical for ensuring the accurate monitoring of drivers' movements,
+which was essential for the client's operations.
+
+Task:
+My responsibility was to ensure the background location service was robust and reliable,
+even under challenging conditions. Additionally, we needed to upgrade several libraries,
+including React Native, without disrupting the app's performance.
+
+Action:
+To address this, I broke down the project into smaller tasks, 
+starting with researching best practices for implementing background location tracking in React Native.
+I collaborated closely with the backend team to ensure the API integration supported real-time updates.
+I also implemented a "stun mode" (offline mode) that allowed the app to store location
+data locally when the network was unavailable, and then sync it once the connection was restored.
+
+I conducted extensive testing in various environments to ensure reliability and worked on optimizing
+the app's performance during the library upgrades. Throughout the project, 
+I maintained open communication with the client to manage expectations and provide updates on progress.
+
+Result:
+The project was successfully completed within the deadline, and the client was extremely satisfied
+with the performance of the background location feature. The app's stability improved significantly
+after the upgrades, and it became a key tool for the client’s logistics operations. 
+This project was a valuable learning experience in managing technical challenges and delivering
+a high-quality solution under pressure.
+
+======================================================================================================
+
+<!-- What are your career goals? -->
+
+I aspire to take on leadership roles where I can mentor junior developers, lead technical teams,
+and contribute to strategic decisions that drive business growth through technology.
+
+
+=====================================================================================================
+
+<!-- Why are you looking to change jobs? -->
+
+I’m looking for a new opportunity to career growth. Currently, my role involves mainly maintenance
+work on that I have completed React Native projects. I’m excited to contribute to innovative projects
+where I can further develop my skills and continue to advance my career in mobile development
