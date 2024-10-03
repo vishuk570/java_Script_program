@@ -49,3 +49,21 @@
 // AsyncStorage is a simple, asynchronous, persistent key-value storage system provided by React Native. 
 // It allows developers to store data locally on the device across app sessions. 
 // AsyncStorage is often used for caching data, storing user preferences, and managing app state.
+
+
+// ========================================================================================
+
+// three main threads handle different tasks within the app:
+
+// 1. Main Thread (UI Thread) : Handles all UI rendering and interaction.
+
+// 2. JavaScript Thread : Executes JavaScript code.
+
+// 3. Native Modules/Background Threads : Handles native module tasks and background operations.
+
+
+// In addition to these three, React Native can spin up additional threads as 
+// needed (like when using libraries for animations, image processing, or heavy computation). For example:
+
+// Fabric: In React Native's new architecture, Fabric uses additional threads for improved concurrency
+// and performance.
