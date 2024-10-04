@@ -64,6 +64,69 @@ const App = () => (
 );
 
 
+// 7. useReducer : 
+// The useReducer hook in React (and React Native) is used to manage complex state logic in components. 
+// It’s an alternative to useState.
+
+// How useReducer Works:
+// It takes in two arguments: 1. Reducer function  2. Initial state
+
+// It returns : 1. The current state. 
+// 2. A dispatch function that allows you to trigger state updates by dispatching actions.
+
+// Syntax:
+const [state, dispatch] = useReducer(reducer, initialState);
+
+// 1.Reducer function: It takes the current state and an action, then returns the new state.
+const reducer = (state, action) => {
+  switch (action.type) {
+    case 'INCREMENT':
+      return { count: state.count + 1 };
+    case 'DECREMENT':
+      return { count: state.count - 1 };
+    default:
+      return state;
+  }
+};
+
+// 2.Initial state: Defines the starting values of your state.
+const initialState = { count: 0 };
+
+// 3.Component: Using useReducer to manage state within the component.
+import React, { useReducer } from 'react';
+
+const Counter = () => {
+  const initialState = { count: 0 };
+
+  const reducer = (state, action) => {
+    switch (action.type) {
+      case 'INCREMENT':
+        return { count: state.count + 1 };
+      case 'DECREMENT':
+        return { count: state.count - 1 };
+      default:
+        return state;
+    }
+  };
+
+  const [state, dispatch] = useReducer(reducer, initialState);
+
+  return (
+    <div>
+      <p>Count: {state.count}</p>
+      <button onClick={() => dispatch({ type: 'INCREMENT' })}>+</button>
+      <button onClick={() => dispatch({ type: 'DECREMENT' })}>-</button>
+    </div>
+  );
+};
+
+export default Counter;
+
+// useReducer is a great tool for managing more structured and scalable state transitions compared to useState.
+
+
+
+
 // =========================================================================
 // Why Redux Might Be Better Than useContext:
 
