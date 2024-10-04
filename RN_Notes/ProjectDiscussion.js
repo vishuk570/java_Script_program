@@ -19,7 +19,7 @@
 // Key Responsibilities:
 
 // 1. Full-Cycle Development: I was responsible for the entire development process, 
-// from designing to coding and testing the application.
+// from designing to coding, testing and deployment the application.
 // 2. Single Sign-On Integration: I implemented single sign-on functionality using
 // Google Sign-In and Microsoft Sign-In to simplify the login process for users.
 // 3. Graphical Reports: I developed features to represent transaction reports graphically, 
@@ -103,7 +103,7 @@
 // Enhanced the app’s usability and performance, leading to better user satisfaction.
 // Contributed to safer driving practices through effective training and evaluation processes.
 // =======================================================================================================
-// 4. Gemini Tracke -> (Domain: Logistics & Supply Chain Management) 0.64.4 -> 0.69.12
+// 4. Gemini Tracker -> (Domain: Logistics & Supply Chain Management) 0.64.4 -> 0.69.12
 // Project Overview: "The Gemini Tracker app is a logistics management platform designed for truck drivers
 // transporting oil and water. My role involved implementing features that allowed drivers to log in,
 // select their truck, hauling type, and set the volume of the load. 
